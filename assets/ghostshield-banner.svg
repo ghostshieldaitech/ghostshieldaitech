@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-label="GhostShield AI Technologies">
+  <defs>
+    <!-- background gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="50%" stop-color="#06121a"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <!-- logo glow -->
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+    <!-- grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#0a2a35" stroke-width="1"/>
+    </pattern>
+    <!-- circular mask for the logo -->
+    <clipPath id="logoClip">
+      <circle cx="180" cy="140" r="62"/>
+    </clipPath>
+  </defs>
+
+  <!-- background -->
+  <rect width="1000" height="280" fill="url(#bg)"/>
+  <rect width="1000" height="280" fill="url(#grid)"/>
+
+  <!-- animated data stream particles -->
+  <g fill="#00E5FF">
+    <circle cx="0" cy="40" r="2" opacity="0.7">
+      <animate attributeName="cx" from="-10" to="1010" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="90" r="1.5" opacity="0.5">
+      <animate attributeName="cx" from="-10" to="1010" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="150" r="2" opacity="0.6">
+      <animate attributeName="cx" from="-10" to="1010" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="210" r="1.5" opacity="0.5">
+      <animate attributeName="cx" from="-10" to="1010" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="250" r="2" opacity="0.7">
+      <animate attributeName="cx" from="-10" to="1010" dur="8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- logo glow halo (pulsing) -->
+  <circle cx="180" cy="140" r="100" fill="url(#glow)">
+    <animate attributeName="r" values="90;105;90" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- pulsing ring behind logo -->
+  <circle cx="180" cy="140" r="62" fill="none" stroke="#00E5FF" stroke-width="2" opacity="0.4">
+    <animate attributeName="r" values="62;78;62" dur="2.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- your logo image (drop ghostshield-logo.png into assets/) -->
+  <image href="ghostshield-logo.png" x="118" y="78" width="124" height="124"
+         clip-path="url(#logoClip)" preserveAspectRatio="xMidYMid slice">
+    <animate attributeName="opacity" values="0.95;0.75;0.95" dur="4s" repeatCount="indefinite"/>
+  </image>
+
+  <!-- logo frame ring -->
+  <circle cx="180" cy="140" r="62" fill="none" stroke="#00E5FF" stroke-width="2" opacity="0.95"/>
+
+  <!-- scanline sweeping across the logo (moving down) -->
+  <g clip-path="url(#logoClip)">
+    <rect x="118" y="78" width="124" height="8" fill="#ffffff" opacity="0.22">
+      <animate attributeName="y" values="78;194;78" dur="2.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- title text -->
+  <text x="250" y="120" font-family="'Segoe UI', Arial, sans-serif" font-size="46" font-weight="bold" fill="#ffffff">
+    GhostShield
+    <animate attributeName="opacity" values="1;0.7;1" dur="4s" repeatCount="indefinite"/>
+  </text>
+  <text x="250" y="160" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="bold" fill="#00E5FF">
+    AI Technologies
+  </text>
+
+  <!-- tagline -->
+  <text x="250" y="200" font-family="'Fira Code', monospace" font-size="18" fill="#9fdce6" letter-spacing="2">
+    UNSEEN · UNBREAKABLE · UNSTOPPABLE
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- blinking cursor -->
+  <rect x="958" y="184" width="10" height="22" fill="#00E5FF">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- bottom accent line -->
+  <rect x="0" y="272" width="1000" height="4" fill="#00E5FF" opacity="0.7"/>
+  <rect x="0" y="272" width="120" height="4" fill="#ffffff">
+    <animate attributeName="x" from="-120" to="1000" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
