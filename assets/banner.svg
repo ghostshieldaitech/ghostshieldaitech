@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="GhostShield AI Technologies">
+  <rect width="1200" height="300" fill="#060A13"/>
+  <rect x="14" y="14" width="1172" height="272" fill="none" stroke="#1D2A44" stroke-width="2"/>
+  <!-- shield mark -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M170 52 L248 80 V150 C248 208 213 236 170 252 C127 236 92 208 92 150 V80 Z" stroke="#22D3EE" stroke-width="5"/>
+    <path d="M170 76 L226 96 V148 C226 192 200 214 170 226 C140 214 114 192 114 148 V96 Z" stroke="#22D3EE" stroke-width="3" opacity="0.5"/>
+    <polyline points="128,152 150,152 161,130 179,174 190,152 214,152" stroke="#F6C453" stroke-width="4"/>
+  </g>
+  <!-- wordmark -->
+  <text x="292" y="138" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="63" font-weight="700" letter-spacing="2" fill="#E9F0FA">GHOSTSHIELD</text>
+  <text x="296" y="184" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="29" font-weight="600" letter-spacing="15" fill="#22D3EE">AI TECHNOLOGIES</text>
+  <text x="296" y="234" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="18" letter-spacing="4" fill="#8CA3BF">UNSEEN &#183; UNBREAKABLE &#183; UNSTOPPABLE</text>
+  <text x="1172" y="52" text-anchor="end" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="15" letter-spacing="3" fill="#5A6B82">EST. 2025 &#8212; KAMRA &#183; WORKING WORLDWIDE</text>
+  <rect y="296" width="1200" height="4" fill="#F6C453"/>
+</svg>
