@@ -12,8 +12,8 @@
 
 <a href="https://ghostshield-ai-technologies.vercel.app"><img src="https://img.shields.io/badge/Website-ghostshield--ai--technologies.vercel.app-060A13?style=for-the-badge&logo=vercel&logoColor=white" alt="Website" /></a>
 <a href="mailto:ghostshield.ai.tech@gmail.com"><img src="https://img.shields.io/badge/Email-ghostshield.ai.tech%40gmail.com-060A13?style=for-the-badge&logo=gmail&logoColor=D14836" alt="Email" /></a>
-<a href="https://wa.me/923390084227"><img src="https://img.shields.io/badge/WhatsApp-%2B92+339+0084227-060A13?style=for-the-badge&logo=whatsapp&logoColor=25D366" alt="WhatsApp" /></a>
-<img src="https://img.shields.io/badge/HQ-Kamra%2C+Pakistan+%C2%B7+Working+Worldwide-060A13?style=for-the-badge&logo=googleearth&logoColor=22D3EE" alt="HQ Kamra, Pakistan — working worldwide" />
+<a href="https://wa.me/923390084227"><img src="https://img.shields.io/badge/WhatsApp-%2B92%20339%200084227-060A13?style=for-the-badge&logo=whatsapp&logoColor=25D366" alt="WhatsApp" /></a>
+<img src="https://img.shields.io/badge/Team-Fully%20Online%20%C2%B7%20Working%20Worldwide-060A13?style=for-the-badge&logo=googleearth&logoColor=22D3EE" alt="Fully online — working worldwide" />
 
 </div>
 
@@ -23,7 +23,7 @@
 
 **GhostShield AI Technologies** builds the software businesses actually run on — secure by design, automated where it counts, and shaped around how each business really works instead of forcing the business to adapt to the software.
 
-Based in Kamra, Pakistan · delivering remotely to clients worldwide, across time zones.
+A fully online team of three · delivering remotely to clients worldwide, across time zones.
 
 - **Founded** 2025
 - **Focus** — cybersecurity · AI & automation · custom business software · hosting & servers
@@ -167,7 +167,7 @@ A Minecraft Paper plugin with companion characters, soulbound items, per-player 
 ### Asadullah
 **Founder & CEO**
 
-Started GhostShield AI Technologies to give businesses — local and international — software that is secure, honest, and built around their real work. Leads every project personally, first call to final handover.
+Started GhostShield AI Technologies to give businesses worldwide software that is secure, honest, and built around their real work. Leads every project personally, first call to final handover.
 
 </td>
 <td width="50%" valign="top">
@@ -195,5 +195,7 @@ Co-runs the company — delivery, operations, and keeping every promise we make.
 [Website](https://ghostshield-ai-technologies.vercel.app) · [Email](mailto:ghostshield.ai.tech@gmail.com) · [WhatsApp](https://wa.me/923390084227)
 
 © 2026 GhostShield AI Technologies
+
+<sub>GhostShield AI Technologies is a shared working name for a small team of independent freelancers working together online. It is not a registered company.</sub>
 
 </div>
